@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smcc Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css/style.css">
+    
 </head>
+
 <body>
-
     <header class="header">
-        <h1 style="text-align: center;">SMCC WEBSITE</h1>
-
-        
+        <h1 style="text-align: center;">SMCC WEBSITE</h1>    
            
             <nav class="navbar">
                 <a href="#">Home</a>
@@ -136,3 +134,56 @@
     
 </body>
 </html>
+
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(images/Untitled\ design.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.header{
+    position: absolute;
+    color: #f1f1f1;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4320b8;
+    z-index: -1;
+}
+ 
+.navbar a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 100px;
+    margin-left: 1.5em;
+
+}
+
+footer{
+    background-color: blue;
+    
+}
