@@ -1,149 +1,242 @@
-html{
-    scroll-behavior: smooth;
-}
 @font-face {
-    font-family: custom;
-    src: url('fontfaces/Nexa-Heavy.ttf') format('truetype');
+    font-family: cstm;
+    src: url('fontfaces/Poppins-Regular.ttf');
 }
 body{
-    font-family: sans-serif;
+    font-family: cstm;
+}
+.navbar{
+    background-color: rgb(1, 1, 62);
+ 
+}
+.navbar-toggler{
+   background-color: rgba(245, 245, 245, 0.389);
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand h3{
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgba(9, 9, 92, 0.823);
+    color: rgb(255, 238, 0);
+    border-radius: 5px 20px;
+}
+.vmgo, .vmgo li{
+    text-align: justify;
+}
+.smcc{
     text-align: center;
-    color: #040223;
-    background-color: rgba(194, 199, 255, 0.615);
+
 }
-header{
-    background-color: #050045;
-    padding-bottom: 1rem;
+.link{
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
-.logo
-{
-    height: 120px;
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    color: rgba(9, 9, 92, 0.823);
 }
-nav
-{
-    text-align: center;sss
+.smcclink{
+text-decoration: none;  
+color: rgba(9, 9, 92, 0.823);
+margin: 20px;
+padding: 20px;
+padding-top: 20rem;
+padding-bottom: 20rem;
+}
+.smcclink:hover{
+    color: rgb(255, 238, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 52, 0.619);
+}
+.main{  
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    
+}
+.vision, .mission, .goal, .objectives{
+    text-align: justify;
+}
+.vmgo{
+    background-color: rgba(147, 141, 241, 0.178);
+    border-radius: 5px;
+}
+.card-basic{
+    background-color: rgb(14, 0, 68);
+    color: white;
+    padding: 5px;
+   border-radius: 5px;
+}
+.card-shs{
+   /* box-shadow: 5px 0px 30px gray;*/
+   background-color: rgba(32, 31, 31, 0.271); 
+  /* background-color: rgb(14, 0, 68); */
+   color: rgb(43, 41, 41); 
+    padding: 5px;
+    border-radius: 5px;
+}
+.course{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+h3{
+    text-align: center;
+    text-shadow: 1px 0px 2px rgb(132, 132, 148);
+}
+h5,h2.h1,p,li{
+    padding: 10px;
+    text-align: center;
    
 }
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    
-}
-nav ul li 
-{
-    display: inline-block;
-    margin-right: 20px;
-}
-nav ul li:last-child{
-    margin-right: 0;
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: medium;
-    color: white;
-}
-nav ul li a:hover{
-    color: rgb(255, 234, 0);
-}
-@media only screen and (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-}
-.logo{
-    padding-right: 1rem;
-}
-h1{
-    font-weight: bolder;
-    font-size: 200%;
-    font-family: custom;
+.department{
     text-align: center;
+ padding-top: 20rem;
+ padding-bottom: 20rem;
 }
-h2,h3
-{
-    font-family: custom;
-    text-align: center;
-}
-
-#VMGO{
-    padding-top: 4rem;
-}
-#home{
-    padding-bottom: 10rem;
-}
-#kinder{
-    width: 350px;
-    background-color: #050045;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    box-shadow: 0 10px 20px rgb(29, 29, 26);
-    border-radius: 5px;
-}
-#elementary,#junior,#senior,#cas,#cbm,#ccis,#crim,#cte,#cthm{
-     width: 350px;
-    background-color: #050045;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    box-shadow: 0 10px 20px rgb(29, 29, 26);
-    border-radius: 5px;
-}
-
-#courses,#shs,#college{
-    padding-top: 40px;
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    gap: 20px; 
-    padding-bottom: 40px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-#about{
-    padding-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    
-}
-#services{
-    padding-top: 40px;
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    gap: 20px; 
-    padding-bottom: 40px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-#srvs{
-    width: 350px;
-    background-color: #050045;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    box-shadow: 0 10px 20px rgb(29, 29, 26);
-    border-radius: 5px;
+.courses-container p{
     text-align: left;
-    justify-content: center; 
-    padding-left: 20px;
 }
-#contact{
-    background-color: #2c1dff38;
-    color: #050045;
-   text-align: center;
+.card-ccis{
+    /*box-shadow: 5px 0px 50px green; */
+    background-color: rgba(22, 193, 56, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+   color: green;
+}
+.card-cthm{
+    /*box-shadow: 5px 0px 30px rgb(250, 0, 42);*/
+    background-color: rgba(200, 56, 80, 0.271);
+    border-radius: 5px;
+    max-width: 100%;
+   max-height: 100%;
+   color: rgb(255, 0, 111);
+}
+.card-cbm{
+   /* box-shadow: 5px 0px 30px rgb(244, 223, 63);*/
+    background-color: rgba(244, 244, 82, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+   color: rgb(124, 108, 3);
+}
+.card-ccje{
+   /* box-shadow: 5px 0px 30px rgb(71, 6, 6); */
+    background-color: rgba(68, 1, 1, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+   color: maroon;
+   
+}
+.card-cte, .card-cas{
+    /*box-shadow: 5px 0px 30px rgb(54, 57, 255);*/
+    background-color: rgba(59, 59, 255, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+   color: rgb(0, 0, 140);
+}
+.card-icon img{
+    height: 100px;
+    margin: 10px;
+}
+.card-title{
+    text-align: left;
+     padding-left: 10px;
+}
+.card-cthm a{
+    color: rgb(255, 0, 111);
+    padding-left: 10px;
+     text-decoration: none;
+}
+.card-ccis a{
+    color: green;
+    padding-left: 10px;
+     text-decoration: none;
+}
+.card-cbm a{
+    color: rgb(124, 108, 3);
+    padding-left: 10px;
+    text-decoration: none; 
+}
+.card-ccje a{
+    color: maroon;
+    padding-left: 10px;
+    text-decoration: none; 
+}
+.card-cte a, .card-cas a{
+    color: rgb(0, 0, 140);
+    padding-left: 10px;
+    text-decoration: none; 
+
+}
+.card-cthm a:hover{
+    background-color: rgb(204, 88, 107);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-ccis a:hover{
+    background-color: rgb(88, 204, 115);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cbm a:hover{
+    background-color: rgb(204, 204, 88);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-ccje a:hover{
+    background-color: rgb(124, 13, 13);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cte a:hover{
+    background-color: rgb(10, 4, 134);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cas a:hover{
+    background-color: rgb(10, 4, 134);
+    border-radius: 5px 15px 5px;
+   color: white;
 }
 
+.service-offer{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.card li, .card h3{
+    text-align: center;
+ 
+}
+.card{
+    background-color: rgb(14, 0, 68);
+    color: white;
+    padding: 5px;
+   border-radius: 5px;
+}  
+.card-contact{
+    background-color: rgba(188, 225, 248, 0.33);
+    padding: 10px;
+    border-radius: 5px;
+} 
 footer{
     text-align: center;
-    font-weight: lighter;
-    opacity: 50%; 
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 }
